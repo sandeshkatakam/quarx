@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "quarx"
+version = "0.1.0"
+description = "Research-focused JAX generative modeling framework"
+authors = [
+  { name = "", email = "" }
+]
+dependencies = [
+  "jax",
+  "optax",
+  "ml-collections",
+  # Optionally: "equinox", "flax", etc.
+]

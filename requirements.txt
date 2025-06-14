@@ -1,0 +1,4 @@
+jax
+optax
+ml-collections
+# Add other dependencies as needed
